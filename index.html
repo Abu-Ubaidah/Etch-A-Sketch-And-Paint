@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etch A Sketch And Paint</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch A Sketch</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Joti+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <head>
+      <h1>Etch A Sketch</h1>
+    </head>
     <main>
-        <div cid="box"></div>
+      <div id="tools">
+        <div id="tools-box">
+          
+        <label for="input-size"></label>
+            <input id="input" name="input-size" type="number" value="">
+       <button id="btn" type="submit">Submit</button>  
+       <button type="reset" onclick="resetGrids()">Reset</button>
+       
+        </div>
+      </div>
+      <div id="sketchContainer">
+ 
 
+      </div>
     </main>
     <footer>
+      <p>Made by Abu Ubaidah <br>Follow me on</p>
 
-    </footer>
+      <div class="footer-icons">
+          <a href="https://github.com/Abu-Ubaidah" target="_blank"><i class="fa fa-github" style="font-size:36px"></i></a>
+          <a href="https://www.linkedin.com/in/abu-ubaidah/" target="_blank"><i class="fa fa-facebook" style="font-size:36px"></i></a>
+      </div>
+  </footer>
+      <script src="index.js"></script>
     
-</body>
+  </body>
 </html>

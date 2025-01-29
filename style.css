@@ -1,0 +1,112 @@
+body {
+  text-align: center;
+  align-items: center;
+  background-color: #e7d283;
+  font-family: "Joti One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+main {
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: inset;
+  box-shadow: 2px 5px 30px;
+  background-color: #edf4c2;
+}
+#tools {
+  padding: 20px 0px 20px 0px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tools-box {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.controls {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: #ff7eb3;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ff4a91;
+}
+
+#sketchContainer {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+  width: 702px;
+  height: 702px;
+  border: 1px solid black;
+}
+
+.grids {
+  border: 1px solid #ddd;
+  transition: 0.2s;
+}
+
+.grids:hover {
+  transform: scale(1.05);
+}
+
+.toggle-btn {
+  background: #4caf50;
+}
+
+.toggle-btn:hover {
+  background: #45a049;
+}
+
+/* Footer Styling */
+footer {
+  margin-top: 10px;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  top: 60px;
+  position: relative;
+}
+
+.footer-icons a {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  transition: 0.3s;
+ padding-left: 5px;
+}
+
+.footer-icons a:hover {
+  color: #ff7eb3;
+}
