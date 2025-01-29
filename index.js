@@ -1,8 +1,10 @@
 
+
 let count =0;
 let container = document.getElementById("sketchContainer");
 document.getElementById("btn").addEventListener("click", formGrid);
-
+preGrid();
+function preGrid() {  
 
 for(i=0;i<35*35;i++){
         
@@ -14,6 +16,7 @@ for(i=0;i<35*35;i++){
 gridCell.addEventListener("mouseover", colorChanger);
 container.appendChild(gridCell);
 
+}
 }
 
 function formGrid() {
