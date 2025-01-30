@@ -23,12 +23,19 @@ main {
 }
 
 #tools-box {
+
   display: flex;
   margin-left: auto;
   margin-right: auto;
 }
 .controls {
   margin-bottom: 15px;
+}
+label{
+ margin-top: auto;
+ margin-bottom: auto;
+ padding-right: 4px;
+ font-family: 'Courier New', Courier, monospace;
 }
 
 input {
@@ -64,9 +71,11 @@ button:hover {
   width: 702px;
   height: 702px;
   border: 1px solid black;
+  overflow: hidden;
 }
 
 .grids {
+  user-select: none;
   border: 1px solid #ddd;
   transition: 0.2s;
 }
