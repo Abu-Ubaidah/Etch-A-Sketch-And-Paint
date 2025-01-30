@@ -27,7 +27,7 @@ function preGrid() {
 function formGrid() {
     let container = document.getElementById("sketchContainer");
     
-    // ✅ Clear previous grid properly
+    //  Clear previous grid properly
     container.innerHTML = ""; 
     
     let inputValue = parseInt(document.getElementById("input").value);
